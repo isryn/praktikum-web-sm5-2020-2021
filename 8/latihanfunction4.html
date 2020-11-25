@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width">
+	<title>Parameter Function</title>
+</head>
+<body>
+	<script>
+		var getLuas = function (panjang, lebar) {
+        return panjang * lebar;
+      };
+
+      function printGetLuas(f) {
+        luas = f(4, 5);
+        console.log(luas);
+      }
+
+      printGetLuas(getLuas);
+	</script>
+</body>
+</html>
